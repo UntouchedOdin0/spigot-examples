@@ -8,8 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class SpigotExamples extends JavaPlugin
 {
 
+    private static final String kotlinVersion = "1.3.72";
     private EnchantmentManager enchantmentManager;
-    private static String kotlinVersion = "1.3.72";
 
     @Override
     public void onEnable()
